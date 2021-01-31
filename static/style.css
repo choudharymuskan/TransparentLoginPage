@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding :0px;
+
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed ;
+    background-size:cover;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top:17%;
+    
+}
+.container h1{
+    border-bottom: 1px solid rgb(80, 74, 74); 
+    color:rgb(80, 74, 74);
+    
+    margin:10px;
+}
+.input input{
+    background:none;
+    margin:5px;
+    outline:none;
+    border:none;
+    border-bottom : 1px solid rgb(80, 74, 74);
+ 
+} 
+
+
+#btn{
+    margin-left:15%;
+    cursor:pointer;
+    outline:none;
+    border:1px solid rgb(80, 74, 74);
+    border-radius: 3px;;
+    color:rgb(80, 74, 74);
+    padding:2px;
+    font-weight:bolder;
+    
+}
+div i{
+    color:rgb(80, 74, 74);
+}
